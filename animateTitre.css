@@ -1,0 +1,58 @@
+.coordonner{
+    --speedAnimate:0.8s;
+}
+.zoomer{
+background-color: rgba(23, 57, 81, 0.3);
+margin-top: 10px;
+padding: 0 50px 0 50px;
+}
+.separation {
+    background-color: white;
+    border-radius: 7px;
+    height: 2px;
+    margin:0 50px 0 50px;
+}
+
+.zoomer > .dplHaut {
+    animation: dpHaut var(--speedAnimate) alternate-reverse ease-in-out infinite;
+}
+
+@keyframes dpHaut {
+    from {
+         transform: translate(0px, -1px);
+    }
+
+    to {
+        transform: translate(0px, -10px);
+    }
+}
+
+.agrandir {
+    animation: zoom var(--speedAnimate) alternate infinite;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0.9);
+    }
+
+    to {
+        transform: scale(1.2);
+
+    }
+}
+
+
+.zoomer > .dplBas {
+    animation: dpHBas var(--speedAnimate) alternate-reverse ease-in-out infinite;
+}
+
+@keyframes dpHBas {
+    from {
+         transform: translate(0px, 1px);
+    }
+
+    to {
+        transform: translate(0px, 10px);
+    }
+}

@@ -1,0 +1,156 @@
+/* Impression */
+a:link {
+    color: black;
+}
+body{
+    background:unset;
+    color:black;
+}
+/*----------------------------------------------------------- */
+/*                       SECTION 1                            */
+/* ---------------------------------------------------------- */
+.global{
+    flex-direction: column; 
+}
+.resumer{
+    flex-direction: row;
+    justify-content:space-between;
+ }
+.coordonner{
+   width: 70%;
+   height: 100%;
+}
+.zoomer{
+    background-color:unset;
+}
+.zoomer > h2{
+    text-align: left;
+}
+
+.separation{
+    display: none;
+}
+.detailcv{
+    display: none;
+}
+.listecv{
+    display: none;
+}
+.parcours{
+    /* display:block; */
+    height:100%;
+}
+
+#Competences{
+    display: block;
+    height:100%;
+}
+#experiences{
+    display: block;
+    height:100%;
+}
+#formation{
+    display: block;
+    height:100%;
+}
+.design{
+    background-color:unset;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+.resumer h2 {
+    font-size: 1em;
+}
+
+.resumer a{
+    margin:unset;
+}
+
+.resumer p {
+    font-size: 1em;
+}
+
+.adresse::before{
+    text-decoration: underline dotted;
+    content: "Adresse : ";
+}
+.tel::before{
+    text-decoration: underline dotted;
+    content: "Tel : ";
+}
+.mail::before{
+    text-decoration: underline dotted;
+    content: "Email : ";
+}
+/*----------------------------------------------------------- */
+/*                       SECTION 2                            */
+/* ---------------------------------------------------------- */
+.parcours {
+    /* display:block;
+    width: 100%; */
+}
+
+.parcours header {
+    background-color: unset;
+}
+
+.parcours header h1 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: black;
+    text-shadow: unset;
+}
+.design{
+    display:block;
+    box-shadow:unset;
+    height:100%;
+}
+
+.parcours h1,
+h2,
+h3 {
+    line-height: 1.4em;
+}
+.parcours li{
+    line-height: 1.3em;
+}
+
+.parcours h1 {
+    border:1px solid black;
+    font-size: 1em;
+}
+
+.parcours h2 {
+    text-decoration: underline ;
+    text-shadow: unset;
+    font-size: 0.9em;
+    margin:-20px 0 0 0;
+}
+
+.parcours h3 {
+    font-size: 0.8em;
+    text-decoration: underline dotted;
+}
+
+.parcours li {
+    font-size: 0.7em;
+}
+
+.parcours .contourBox {
+    background-color: unset;
+    box-shadow: unset;
+    border-radius: unset;
+}
+
+.derouler>ul {
+    overflow: unset;
+    max-height: unset;
+}
+
+.derouler>li {
+    background-color: unset;
+} 

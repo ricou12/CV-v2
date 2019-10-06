@@ -1,0 +1,136 @@
+body {
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    background-image: url("img/infor.jpg");
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.global {
+    display: flex;
+    flex-direction: row;  
+}
+
+.resumer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    min-width: 450px;
+    /* border: 1px solid black;    */
+}
+
+.logo > img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.coordonner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: 1s ease-in-out;
+     margin-bottom:10px 0 30px 10px;
+}
+
+.coordonner p {
+     margin-left:40px;
+    margin-bottom: 0px;
+    font-size: 1.4em;
+}
+
+.coordonner:hover {
+    background-color: rgba(23, 57, 81, 0.9);
+    height: 350px;
+}
+
+.zoomer h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.detailcv{
+    display: flex;
+    flex-direction: column;
+}
+
+.listecv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    background-color: rgba(23, 57, 81, 0.75);
+    border: 1px solid black;
+    border-radius: 5px 5px 5px;
+    text-align: center;
+    height: 100px;
+    width:80%;
+    margin:0 auto 10px auto;
+    font-size: 2em;
+}
+/*----------------------*/
+/*        Bloc 2        */
+/*----------------------*/
+.elem-liste0 {
+    list-style-type: square;
+}
+li {
+    line-height: 1.6em;
+}
+
+.elem-liste1 {
+    list-style: url("img/elem-liste3.png");
+}
+
+.derouler > li {
+    background-color:rgba(104, 123, 134, 0.77);
+    border-radius: 5px;
+    padding-left:5px;
+}
+
+.derouler > ul {
+    overflow: hidden;
+    height: auto;
+    max-height: 0px;
+    transition: max-height 1.5s;
+}
+
+.derouler:hover>ul {
+    max-height: 800px;
+}
+
+.parcours {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titre h1 {
+    text-align: center;
+    font-size: 2.1em;
+    color: rgb(235, 242, 255);
+    text-shadow: 3px 10px 15px gray;
+}
+
+#experiences{
+    display: none;
+}
+#formation{
+    display: none;
+}
+.design {
+    background-color: rgba(17, 39, 54, 0.918);
+    box-shadow: 3px 3px 10px 3px rgba(147, 142, 142, 0.45);
+    border-radius: 5px;
+    padding: 40px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    width: 90%;
+}
+
+li {
+    line-height: 1.6em;
+}
